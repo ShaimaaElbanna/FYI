@@ -3,7 +3,7 @@ console.log ("Ciao, mondo!");
 console.log ("Hola, mundo!");
 
 //2
-//console.log('I'm awesome');
+//console.log('pk awesome');
 console.log("'I'm awesome'");
 
 //3
