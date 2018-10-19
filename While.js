@@ -78,13 +78,13 @@ switch(card){
   count = count -1;
 }
 if (count > 0){
-  return count + " Bet"
+  return console.log( count + " Bet");
 } else if (count <= 0){
-  return count + " Hold"
+  return console.log(count + " Hold");
 }
 
   
-  return count;
+  return console.log(count) ;
   // Only change code above this line
 }
 
@@ -94,7 +94,7 @@ cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 
 
-
+  
 
 // Setup
 function phoneticLookup(val) {
@@ -112,7 +112,7 @@ function phoneticLookup(val) {
     result = lookup[val]
   
     // Only change code above this line
-    return result;
+    return console.log(result) ;
   }
   
   // Change this value to test
